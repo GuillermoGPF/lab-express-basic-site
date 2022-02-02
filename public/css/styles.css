@@ -1,0 +1,74 @@
+body {
+    background-color: #000;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.1em;
+}
+
+.navbar {
+    background-color: #0a2c42;
+    margin-bottom: 30px;
+}
+
+.navbar a {
+    color: white;
+
+}
+
+.logo {
+    animation: scale 4s;    
+}
+
+@keyframes scale {
+    0% {transform: scale(1); opacity: 0;}
+    50% {transform: scale(.4); opacity: 1;}
+    100% {transform: scale(.4); opacity: 0;}
+    
+}
+
+video {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-left: 90px;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sword {
+    height: 200px;
+    object-fit: cover;
+    object-position: left;
+    animation: sword 4s;
+}
+@keyframes sword {
+    from {width: 200px;}
+    to {width: 100%;}
+}
+
+
+.darth {
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+
+
+footer {
+    background-color: #0a2c42;
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
